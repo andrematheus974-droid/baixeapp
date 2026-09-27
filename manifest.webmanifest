@@ -1,0 +1,61 @@
+{
+  "id": "./index.html",
+  "name": "Controle da Casa",
+  "short_name": "Controle da Casa",
+  "description": "Aprendizado, rotinas e organização doméstica em um só lugar.",
+  "lang": "pt-BR",
+  "start_url": "./index.html#/aprender",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#FFF3F7",
+  "theme_color": "#FF4D9D",
+  "categories": ["lifestyle", "education", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Aprender",
+      "short_name": "Aprender",
+      "url": "./index.html#/aprender",
+      "icons": [{"src": "./icons/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Rotina",
+      "short_name": "Rotina",
+      "url": "./index.html#/rotina",
+      "icons": [{"src": "./icons/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Hoje",
+      "short_name": "Hoje",
+      "url": "./index.html#/hoje",
+      "icons": [{"src": "./icons/icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+CONTROLE DA CASA — PUBLICAÇÃO DO APLICATIVO INSTALÁVEL
+
+1. Envie esta pasta inteira para a hospedagem, mantendo os arquivos e a pasta "icons" juntos.
+2. A hospedagem precisa usar HTTPS. A instalação não funciona quando o arquivo é aberto diretamente pelo computador.
+3. Configure o link entregue após a compra para abrir:
+   https://SEU-DOMINIO/PASTA/instalar.html
+4. O tutorial identifica iPhone e Android e mostra o passo a passo correspondente.
+5. Depois da instalação, o ícone abre diretamente na área Aprender do Controle da Casa.
+6. Não renomeie manifest.webmanifest nem service-worker.js sem também atualizar as referências no index.html.
+
+TESTE RÁPIDO
+- Android: abra instalar.html no Chrome e toque em "Instalar Controle da Casa".
+- iPhone: abra instalar.html no Safari, toque em Compartilhar, depois em "Adicionar à Tela de Início" e em "Adicionar".
+- Se o link for aberto dentro do Instagram, Facebook, WhatsApp ou Gmail, use a opção "Abrir no navegador" antes de instalar.
